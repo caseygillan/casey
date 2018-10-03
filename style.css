@@ -13,15 +13,31 @@ body {
     width: 100%;
 }
 
-.header {
+.home-page {
     font-size: 5vw;
-    color: #fdfdfd;
-    display:flex;
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: right;
-    justify-items: flex-end;
     position: fixed;
     right: 20px;
+}
+
+.portfolio-page {
+    display: none;
+}
+
+.contact-page {
+    display: none;
+}
+
+.link {
+    color: #fdfdfd;
+    opacity: .9;
+    text-decoration: none;
+}
+
+span {
+    color: #fdfdfd;
+    opacity: .5;
 }
 
 .intro {
