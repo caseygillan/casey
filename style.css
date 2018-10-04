@@ -14,6 +14,16 @@ body {
 }
 
 .home-page {
+    display: block;
+    font-size: 5vw;
+    margin-left: 10px;
+    text-align: right;
+    position: fixed;
+    right: 20px;
+}
+
+.about-me-page {
+    display: none;
     font-size: 5vw;
     margin-left: 10px;
     text-align: right;
@@ -23,16 +33,20 @@ body {
 
 .portfolio-page {
     display: none;
+    font-size: 5vw;
+    margin-left: 10px;
+    text-align: right;
+    position: fixed;
+    right: 20px;
 }
 
 .contact-page {
     display: none;
-}
-
-.link {
-    color: #fdfdfd;
-    opacity: .9;
-    text-decoration: none;
+    font-size: 5vw;
+    margin-left: 10px;
+    text-align: right;
+    position: fixed;
+    right: 20px;
 }
 
 span {
@@ -45,9 +59,21 @@ span {
 }
 
 .portfolio {
-    text-align: right;
-    font-size: 50px;
     color: #fdfdfd;
+    opacity: .9;
+    text-decoration: none;
+}
+
+.about-me {
+    color: #fdfdfd;
+    opacity: .9;
+    text-decoration: none; 
+}
+
+.contact {
+    color: #fdfdfd;
+    opacity: .9;
+    text-decoration: none;
 }
 
 .ruck-log {
@@ -66,7 +92,7 @@ span {
     width: 300px;
 }
 
-.contact {
+.contact-links {
     position: fixed;
     bottom: 10px;
     right: 20px;
